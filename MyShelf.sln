@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyShelf.UI", "MyShelf.UI\MyShelf.UI.csproj", "{62D68C03-CDEF-4B90-BDFC-C0E35B1EB93F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62D68C03-CDEF-4B90-BDFC-C0E35B1EB93F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62D68C03-CDEF-4B90-BDFC-C0E35B1EB93F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62D68C03-CDEF-4B90-BDFC-C0E35B1EB93F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62D68C03-CDEF-4B90-BDFC-C0E35B1EB93F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2F6150F-889D-450A-928F-A18D779ABB1D}
+	EndGlobalSection
+EndGlobal
