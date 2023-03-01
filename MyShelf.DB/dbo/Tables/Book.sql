@@ -8,6 +8,11 @@
     [PublisherId]  INT            NOT NULL,
     [ISBN]         VARCHAR (25)   NULL,
     [BookImageURL] VARCHAR (150)  NULL,
-    CONSTRAINT [PK_Book] PRIMARY KEY CLUSTERED ([BookId] ASC)
+    [AuthorId]     INT            NOT NULL,
+    CONSTRAINT [PK_Book] PRIMARY KEY CLUSTERED ([BookId] ASC),
+    CONSTRAINT [FK_Book_Author] FOREIGN KEY ([BookId]) REFERENCES [dbo].[Author] ([AuthorId]),
+    CONSTRAINT [FK_Book_Publisher] FOREIGN KEY ([BookId]) REFERENCES [dbo].[Publisher] ([PublisherId])
 );
+
+
 
