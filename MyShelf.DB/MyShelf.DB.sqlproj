@@ -68,7 +68,5 @@
     <Build Include="dbo\Tables\Publisher.sql" />
     <Build Include="dbo\Tables\User.sql" />
     <Build Include="dbo\Tables\BookGenre.sql" />
-    <Build Include="dbo\Tables\UserSystemRole.sql" />
-    <Build Include="dbo\Tables\SystemRole.sql" />
   </ItemGroup>
 </Project>
